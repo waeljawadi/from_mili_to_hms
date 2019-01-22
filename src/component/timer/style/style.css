@@ -1,0 +1,31 @@
+.verybold {
+    font-weight: 600;
+    font-size: 4em;
+    position: relative;
+  }
+  
+  .thinner {
+    display: block;
+  }
+  
+  .verybold::after {
+    position: absolute;
+    font-size: 13px;
+    bottom: -8px;
+    width: 100%;
+    left: 0;
+    color: lightgray;
+  }
+  
+  .verybold.one::after {
+    content: "Hour";
+  }
+  
+  .verybold.two::after {
+    content: "Minute";
+  }
+  
+  .verybold.three::after {
+    content: "Seconde";
+  }
+ 
