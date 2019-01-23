@@ -8,7 +8,6 @@ const Affichage = (props) =>
             <span className="verybold one">{props.hours}</span>{separateur}
             <span className="verybold two">{props.minutes}</span>{separateur}
             <span className="verybold three">{props.secondes}</span>
-            <p></p>
         </React.Fragment>
     )
   }
